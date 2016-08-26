@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrescriptionWriter</string>
+    <string name="app_description">Corso di Sicurezza Informatica\nTema d\'anno\n\nCorso di Laurea Magistrale in Ingegneria Informatica\n\nProf. Giuseppe Mastronardi\nPolitecnico di Bari</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_search">Ricerca</string>
+    <string name="action_save">Salva</string>
+    <string name="recents">Recenti</string>
+    <string name="patients">Pazienti</string>
+    <string name="no_recents">Nessun recente</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="profile">Profilo</string>
+    <string name="about">About</string>
+    <string name="sendfeedback">Invia feedback</string>
+    <string name="email">giorgio.basile4@gmail.com</string>
+    <string name="regionalcode">Codice regionale</string>
+    <string name="regionalcode_insert">Inserire il codice regionale</string>
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="new_prescription">Nuova prescrizione</string>
+    <string name="new_patient">Nuovo paziente</string>
+    <string name="delete">Elimina</string>
+    <string name="send_NFC">Invia su NFC</string>
+    <string name="recents_empty">(Vuoto)</string>
+    <string name="doctorname">Nome medico</string>
+    <string name="doctorname_insert">Inserire nome</string>
+    <string name="empty_fields">Campi vuoti</string>
+    <string name="empty_quantity">Inserire quantità</string>
+    <string name="low_quantity">La quantità dev\'essere almeno pari a 1</string>
+    
+    <string name="short_taxcode">Il CF dev\'essere di 16 caratteri</string>
+    <string name="bad_taxcode">CF non valido</string>
+    <string name="successful_save">Salvataggio riuscito</string>
+    <string name="no_drugs_selected">Nessun farmaco selezionato</string>
+    <string name="doctorsurname">Cognome</string>
+    <string name="doctorsurname_insert">Inserire cognome</string>
+    <string name="region">Regione</string>
+    <string name="region_insert">Regional Health Service</string>
+    <string name="province">Provincia</string>
+    <string name="province_insert">Insert province acronym</string>
+    <string name="aslcode">Codice ASL</string>
+    <string name="aslcode_insert">Insert ASL code</string>
+    <string name="tax_code">Codice Fiscale</string>
+    <string name="prescription">Prescrizione</string>
+    <string name="select_patient">Seleziona paziente</string>
+    <string name="new_presc">Nuova prescrizione</string>
+    <string name="loading">Caricamento</string>
+    <string name="loading_database">Caricamento database&#8230;</string>
+    <string name="drug_choice">Seleziona farmaco</string>
+    <string name="patient_choice">Seleziona paziente</string>
+    <string name="tag_detected">Tag NFC rilevato</string>
+    <string name="ok_writing">OK, scrittura effettuata</string>
+    <string name="error_detection">Nessun Tag NFC rilevato</string>
+    <string name="error_writing">Errore di scrittura</string>
+    <string name="prescription_delete_confirm">Sei sicuro di voler eliminare questa prescrizione?</string>
+    <string name="patient_delete_confirm">Sei sicuro di voler eliminare questo paziente?</string>
+	<string name="prescription_deleted">Prescrizione eliminata</string>
+	<string name="patient_deleted">Paziente eliminato</string>
+	<string name="filter">Cerca&#8230;</string>
+	<string name="quantity">Quantità</string>
+    <string name="assumption">Assunzione</string>
+    <string-array name="drawer_options">
+        <item>Prescrizioni</item>
+        <item>Pazienti</item>
+        <item>Profilo medico</item>
+        <item>Impostazioni</item>
+        <item>About</item>
+    </string-array>
+    <string name="doctor">Dottore</string>
+    
+	<string name="title_activity_new_patient">Nuovo paziente</string>
+    <string name="title_activity_new_prescription">Nuova prescrizione</string>
+    <string name="title_activity_prescription">Prescrizione</string>
+
+    <string name="security">Sicurezza</string>
+    <string name="security_title">Algoritmo di cifratura</string>
+    <string name="security_algorithm">Seleziona algoritmo di cifratura</string>
+    <string-array name="security_algorithms_entries">
+        <item>DES</item>
+        <item>Triple DES</item>
+    </string-array>
+    
+</resources>

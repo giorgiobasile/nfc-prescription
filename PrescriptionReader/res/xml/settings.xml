@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    <PreferenceCategory android:title="@string/security" >
+         <ListPreference
+            android:key="@string/security_key"
+            android:title="@string/security_title"
+            android:dialogTitle="@string/security_algorithm" 
+            android:entries="@array/security_algorithms_entries"
+	        android:entryValues="@array/security_algorithms_values"
+	        android:defaultValue="@string/security_algorithm_default" />
+    </PreferenceCategory>    
+	<PreferenceCategory android:title="@string/about">
+		<Preference 
+		    android:title="@string/sendfeedback"
+		    android:key="@string/sendfeedback_key"/>	
+	</PreferenceCategory>
+</PreferenceScreen>

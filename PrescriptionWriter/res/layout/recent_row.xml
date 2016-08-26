@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/card_layout" >
+	    <TwoLineListItem 
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:minHeight="?android:attr/listPreferredItemHeight"
+		    android:mode="twoLine"
+		    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+		    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+			>
+	    
+		<TextView android:id="@+id/text1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+	    	android:layout_marginTop="8dip"
+			android:fontFamily="sans-serif-condensed"
+			android:textSize="20sp"
+		/>
+			
+		<TextView android:id="@+id/text2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/text1"
+	    	android:layout_alignStart="@id/text1"
+			android:fontFamily="sans-serif-condensed"
+			android:textSize="14sp"
+			
+		/>
+	</TwoLineListItem>
+	<ImageView
+	    android:id="@+id/menu_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/menu_button_selector"
+	    android:scaleType="fitXY"
+	    android:focusableInTouchMode="false"
+        android:clickable="true"
+        android:background="@android:color/transparent" 
+        android:layout_gravity="center"      
+	    />
+</LinearLayout>

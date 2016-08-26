@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrescriptionWriter</string>
+    <string name="app_description">Computer Security Course\nCapstone Project\n\nMaster Degree Course on Computer Engineering\n\nProf. Giuseppe Mastronardi\nPolitecnico di Bari</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_save">Save</string>
+    <string name="recents">Recents</string>
+    <string name="patients">Patients</string>
+    <string name="no_recents">No recents</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="profile">Profile</string>
+    <string name="profile_key">profile</string>
+    <string name="sendfeedback_key">sendfeedback</string>
+    <string name="about">About</string>
+    <string name="sendfeedback">Send feedback</string>
+    <string name="email">giorgio.basile4@gmail.com</string>
+    <string name="regionalcode">Regional code</string>
+    <string name="regionalcode_key">regionalcode</string>
+    <string name="regionalcode_insert">Insert your medical regional code</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="new_prescription">New prescription</string>
+    <string name="new_patient">New patient</string>
+    <string name="delete">Delete</string>
+    <string name="send_NFC">Send via NFC</string>
+    <string name="recents_empty">(Empty)</string>
+    <string name="doctorname">Doctor name</string>
+    <string name="doctorname_key">doctorname</string>
+    <string name="doctorname_insert">Insert your name</string>
+    <string name="empty_fields">Empty fields</string>
+    <string name="empty_quantity">Empty quantity</string>
+    <string name="low_quantity">Quantity must be at least 1</string>
+    
+    <string name="short_taxcode">The taxcode must be 16 characters long</string>
+    <string name="bad_taxcode">Invalid taxcode</string>
+    <string name="successful_save">Successful save</string>
+    <string name="no_drugs_selected">No drugs selected</string>
+    <string name="doctorsurname">Doctor surname</string>
+    <string name="doctorsurname_key">doctorsurname</string>
+    <string name="doctorsurname_insert">Insert your surname</string>
+    <string name="region">Region</string>
+    <string name="region_key">region</string>
+    <string name="region_insert">Regional Health Service</string>
+    <string name="province">Province</string>
+    <string name="province_key">province</string>
+    <string name="province_insert">Insert province acronym</string>
+    <string name="aslcode">ASL code</string>
+    <string name="aslcode_key">aslcode</string>
+    <string name="aslcode_insert">Insert ASL code</string>
+    <string name="tax_code">Tax Code (CF)</string>
+    <string name="prescription">Prescription</string>
+    <string name="select_patient">Select patient</string>
+    <string name="new_presc">Add New</string>
+    <string name="loading">Loading</string>
+    <string name="loading_database">Loading database&#8230;</string>
+    <string name="drug_choice">Select drug</string>
+    <string name="patient_choice">Select patient</string>
+    <string name="tag_detected">Tag detected</string>
+    <string name="ok_writing">OK, successful writing</string>
+    <string name="error_detection">No tag detected</string>
+    <string name="error_writing">Error writing tag</string>
+    <string name="prescription_delete_confirm">Are you sure you want to delete this prescription?</string>
+    <string name="patient_delete_confirm">Are you sure you want to delete this patient?</string>
+	<string name="prescription_deleted">Prescription deleted</string>
+	<string name="patient_deleted">Patient deleted</string>
+	<string name="filter">Search&#8230;</string>
+	<string name="quantity">Quantity</string>
+    <string name="assumption">Assumption</string>
+    <string-array name="drawer_options">
+        <item>Prescriptions</item>
+        <item>Patients</item>
+        <item>Doctor profile</item>
+        <item>Settings</item>
+        <item>About</item>
+    </string-array>
+    <string name="doctor">Doctor</string>
+    
+	<string name="title_activity_new_patient">New patient</string>
+    <string name="title_activity_new_prescription">New prescription</string>
+    <string name="title_activity_prescription">Prescription</string>
+
+    <string name="security">Security</string>
+    <string name="security_key">security</string>
+    <string name="security_algorithm">Select security algorithm</string>
+    <string-array name="security_algorithms_entries">
+        <item>DES</item>
+        <item>Triple DES</item>
+    </string-array>
+    <string-array name="security_algorithms_values">
+        <item>DES</item>
+        <item>Triple DES</item>
+    </string-array>
+    <string name ="security_algorithm_default">DES</string>
+    <string name="security_title">Security algorithm</string>
+    
+</resources>

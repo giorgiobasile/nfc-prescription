@@ -1,0 +1,22 @@
+<FrameLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    xmlns:app="http://schemas.android.com/apk/res/it.poliba.giorgiobasile.prescriptionwriter"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools">
+	<FrameLayout 
+	    android:id="@+id/container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    tools:context="it.poliba.giorgiobasile.prescriptionwriter.activities.NewPrescriptionActivity"
+	    tools:ignore="MergeRootFrame" />
+	<com.faizmalkani.floatingactionbutton.FloatingActionButton
+	        android:id="@+id/fabNew"
+	        android:layout_width="72dp"
+	        android:layout_height="72dp"
+	        android:layout_gravity="bottom|right"
+	        android:layout_marginBottom="16dp"
+	        android:layout_marginRight="16dp"
+	        app:drawable="@drawable/ic_navigation_accept"
+	        android:onClick="fabClicked" />
+</FrameLayout>
