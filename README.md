@@ -1,5 +1,6 @@
 # NFC Medical Prescription
 
+**_Developed in 2014 and no longer mantained_**
 
 Two Android apps enabling writing and reading actions on NFC tags (secured with DES encryption) which contain medical prescriptions, in order to avoid using paper without building complex web infrastructures.
 
